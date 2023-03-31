@@ -1,0 +1,17 @@
+h1{
+    background-color: bisque;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+.nav{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: medium;
+    display: inline-block;
+    
+    
+}
+body{
+    background-color: coral;
+}
