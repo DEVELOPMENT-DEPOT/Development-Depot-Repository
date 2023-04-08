@@ -1,17 +1,113 @@
-h1{
+h1 {
+    text-align: center;
+    text-decoration: blue;
+    border-radius: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
     background-color: bisque;
-    text-align: center;
     text-transform: uppercase;
-    padding-top: 1px;
+
 }
-.nav{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: medium;
-    display: inline-block;
-    
-    
-}
-body{
+
+body {
     background-color: coral;
 }
+
+h2 {
+    text-align: right;
+    color: blue;
+
+}
+
+.navbar {
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.container {
+    flex-wrap: wrap;
+    text-align: justify;
+    display: flexbox;
+    text-size-adjust: 14px;
+    text-decoration-style: 1em sans-serif;
+    ;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+}
+
+
+.Poems {
+    width: 400px;
+    height: 400px;
+    margin: 0px; 
+    padding: 0px; 
+    display: inline-flexbox;
+    
+
+}
+
+.Pink-dress{
+    width: 180px;
+    height: 200px;
+    margin: 2px;
+    padding-block: 3px;
+}
+
+.Kimono-dress{
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    padding-block: 3px
+}
+
+.Gown-picture {
+    border: 15px;
+    margin: 3px 3px 3px 3px;
+    width: 250px;
+    height: 330px;
+    padding: 2px 3px 2px 3px;
+
+}
+
+.portolio {
+    text-align: center;
+    text-decoration: blue;
+    border-radius: 3px 3px 3px 3px;
+    margin: 2px 2px 2px 2px;
+}
+
+.Sewing{
+    text-align: justify;
+    text-decoration: blueviolet;
+}
+
+.Writing{
+    text-align: left;
+    
+
+}
+
+
+
