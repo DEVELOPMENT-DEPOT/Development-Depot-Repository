@@ -39,8 +39,8 @@ li:hover {
 
 .container {
     flex-wrap: wrap;
-    text-align: justify;
-    text-size-adjust: 14px;
+    justify-content: Center;
+    font-size: medium;
     font-style: normal;
 }
 
@@ -80,10 +80,13 @@ li:hover {
 
 }
 
-
 .pictures{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
 
 }
 
