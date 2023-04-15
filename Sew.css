@@ -1,0 +1,24 @@
+.sewing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 90px;
+    height: 300px;
+    margin: 2px;
+    padding: 2px;
+  
+    
+
+}
+
+.poem-pictures{
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+column-gap: 30px;
+height: 300px;
+width: 300px;
+
+
+}
