@@ -1,0 +1,183 @@
+.home{
+    display: flexbox;
+    background-color: blueviolet;
+    line-height: 5px;
+    border-radius: 5px;
+    border-color: rgb(46, 43, 226);
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: ridge;
+}
+
+.home:hover{
+    background-color: bisque;
+}
+
+footer:hover {
+    background-color: darkorchid;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container {
+    flex-wrap: wrap;
+    justify-content: Center;
+    font-size: medium;
+    font-style: normal;
+}
+
+.Headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px
+}
+
+body {
+    display: flex-block;
+    background-color: coral;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: darkgreen;
+}
+
+
+.sewing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 90px;
+    height: 300px;
+    margin: 2px;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.sewing:hover{
+    background-color: blueviolet;
+}
+
+.Writing {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: larger;
+    margin: 5px;
+    padding: 20px;
+    line-height: 25px;
+
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;    
+
+}
+
+.pictures:hover{
+    background-color: blueviolet;
+
+}
+
+.Zoo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: larger;
+    padding: 3px;
+    margin: 4px;
+}
+
+.Bell-Peppers {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: larger;
+    padding:3px ;
+    margin: 4px;
+
+}
+
+
+.First-Html-Webpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: larger;
+    padding: 3px;
+    margin: 4px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+input, button{
+    height: 50px;
+    width: 20%;
+    justify-content: space-evenly;
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+form:hover{
+    background-color: blueviolet;
+}
+
+@media(max-width:700px){
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+}
+
+.linkedin{
+display: flex;
+flex-direction: row;
+padding: 5px;
+height: 2px;
+}
+
+   
+
+
+
