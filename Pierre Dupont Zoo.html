@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=”stylesheet” href=”style.css”> 
+</head>
+<body style="background-color:aquamarine;">
+    
+    <h1 style="text-align: center;">Pierre Dupont Zoo</h1>
+    <h2>Bears</h2>
+    <img src="Brown Bear.jpeg">
+    <ul>
+        <li>Ollie</li> 
+        <li>Mona</li> 
+    </ul>
+ <p>Brown Bears are the King of the Wild. Brown bears may reach seven feet tall. Male bears may weigh up to 700 lbs.</p>  
+ <a href="https://www.nps.gov/subjects/bears/brown-bears.htm">National Park Service</a>
+ <br>
+ <h2>Giraffes</h2>
+<img src="Giraffes.jpeg">
+<ul>
+   <li>Frankie</li>
+<li> Coconut</li>
+
+</ul>
+<p>Giraffes are the graceful queen of the jungle. They can grow up 14-18 feet tall and weight up to 1500-3000 lbs.</p>
+<a href="https://en.wikipedia.org/wiki/Giraffe">Wikipedia</a>
+<br>
+<h2>Lions</h2>
+<img src="Lions.jpeg">
+<ul>
+    <li>Mella</li>
+    <li>Karl</li>
+</ul>
+<p>Lions are the King of the Jungle hear them roar.</p>
+<a href="https://en.wikipedia.org/wiki/Lion">Wikipedia</a>
+<br>
+<h2>Monkeys</h2>
+<img src="Monkeys.jpeg">
+<ul>
+    <li>Cookie</li>
+    <li>Earl</li>
+    <li>Banana Pudding</li>
+</ul>
+<p>Monkeys are about 5.5 to 6 feet all and weigh between 15-30 lbs.</p>
+<a href="https://en.wikipedia.org/wiki/Monkey">Wikipedia</a>
+<br>
+<h2>Alligators</h2>
+<img src="Alligators.jpeg">
+<ul>
+    <li>Wren</li>
+    <li>Aspen</li>
+    <li>Mika</li>
+</ul>
+<p>Alliators are reptiles. They range in length from 11.5 to 15.1 feet and can weigh up to 1000 lbs.</p>
+<a href="https://nationalzoo.si.edu/animals/american-alligator">Smithsonian National Zoo and Conservation Biology Institute </a>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
