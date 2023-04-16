@@ -14,6 +14,25 @@
     background-color: bisque;
 }
 
+footer:hover {
+    background-color: darkorchid;
+}
+
+.container {
+    flex-wrap: wrap;
+    justify-content: Center;
+    font-size: medium;
+    font-style: normal;
+}
+
+.Headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    height: 450px
+}
+
 body {
     display: flex-block;
     background-color: coral;
@@ -37,20 +56,6 @@ li:hover {
     background-color: darkgreen;
 }
 
-.container {
-    flex-wrap: wrap;
-    justify-content: Center;
-    font-size: medium;
-    font-style: normal;
-}
-
-.Headshot{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 290px;
-    height: 450px
-}
 
 .sewing{
     display: flex;
@@ -69,7 +74,6 @@ li:hover {
     background-color: blueviolet;
 }
 
-
 .Writing {
     text-align: left;
     text-transform: uppercase;
@@ -85,50 +89,61 @@ li:hover {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-content: flex-start;
-    
+    align-content: flex-start;    
 
 }
 
 .pictures:hover{
     background-color: blueviolet;
+
 }
 
-.First-Html-Webpage {
-    justify-content: flex-start;
-    text-transform: uppercase;
+.Zoo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: larger;
     padding: 3px;
     margin: 4px;
 }
 
 .Bell-Peppers {
-    justify-content: flex-start;
-    text-transform: uppercase;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: larger;
-    padding: 3px;
+    padding:3px ;
     margin: 4px;
 
 }
-.Lions {
-    justify-content: left;
-    text-transform: uppercase;
+
+
+.First-Html-Webpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: larger;
     padding: 3px;
     margin: 4px;
 }
 
-form:hover {
-    background-color: blueviolet;
-
-}
 
 .form{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 10px;
+
 }
 
-footer:hover {
-    background-color: darkorchid;
+.form:hover{
+    background-color: blueviolet;
 }
+
+
 
 

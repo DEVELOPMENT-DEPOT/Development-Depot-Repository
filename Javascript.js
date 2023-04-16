@@ -1,6 +1,6 @@
 console.log("Hello World")
-const form = document.querySelector("#form")
-   const submitButton = document.querySelector("#submit")
+const form = document.querySelector("#contact")
+   const submitButton = document.querySelector("contact")
    const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'
 
    form.addEventListener('submit', e => {
