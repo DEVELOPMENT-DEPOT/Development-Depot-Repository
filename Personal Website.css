@@ -4,7 +4,7 @@
     line-height: 5px;
     border-radius: 5px;
     border-color: rgb(46, 43, 226);
-    padding: 2px;
+    padding: 5px;
     margin-left: 4px;
     margin-right: 4px;
     border-style: ridge;
@@ -45,6 +45,13 @@ body {
     background-color: coral;
 }
 
+@media only screen and (min-width: 1281px){
+    body{
+ background-color: blanchedalmond;
+     }
+ }
+ 
+
 ul {
     display: flex;
     flex-direction: row;
@@ -71,8 +78,8 @@ li:hover {
     justify-content: space-evenly;
     column-gap: 90px;
     height: 300px;
-    margin: 2px;
-    padding: 2px;
+    margin: 4px;
+    padding: 10px;
     text-transform: uppercase;
     font-size: larger;
 }
@@ -96,7 +103,8 @@ li:hover {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-content: flex-start;    
+    align-content: flex-start;   
+    padding: 20px; 
 
 }
 
@@ -111,7 +119,7 @@ li:hover {
     flex-wrap: wrap;
     justify-content: center;
     font-size: larger;
-    padding: 3px;
+    padding: 10px;
     margin: 4px;
 }
 
@@ -121,7 +129,7 @@ li:hover {
     flex-wrap: wrap;
     justify-content: center;
     font-size: larger;
-    padding:3px ;
+    padding:10px ;
     margin: 4px;
 
 }
@@ -133,7 +141,7 @@ li:hover {
     flex-wrap: wrap;
     justify-content: center;
     font-size: larger;
-    padding: 3px;
+    padding: 10px;
     margin: 4px;
 }
 
@@ -162,13 +170,6 @@ form:hover{
     background-color: blueviolet;
 }
 
-@media(max-width:700px){
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-}
 
 .linkedin{
 display: flex;
@@ -176,8 +177,15 @@ flex-direction: row;
 padding: 5px;
 height: 2px;
 }
-
    
+@media only screen and (min-width: 1281px){
+   body{
+background-color: blanchedalmond;
+    }
+}
+
+    
+
 
 
 
