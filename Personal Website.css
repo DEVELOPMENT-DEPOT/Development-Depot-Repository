@@ -45,6 +45,13 @@ body {
     background-color: coral;
 }
 
+@media only screen and (min-width: 1281px){
+    body{
+ background-color: blanchedalmond;
+     }
+ }
+ 
+
 ul {
     display: flex;
     flex-direction: row;
@@ -163,13 +170,6 @@ form:hover{
     background-color: blueviolet;
 }
 
-@media(max-width:700px){
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-}
 
 .linkedin{
 display: flex;
@@ -177,9 +177,15 @@ flex-direction: row;
 padding: 5px;
 height: 2px;
 }
-
    
- 
+@media only screen and (min-width: 1281px){
+   body{
+background-color: blanchedalmond;
+    }
+}
+
+    
+
 
 
 
