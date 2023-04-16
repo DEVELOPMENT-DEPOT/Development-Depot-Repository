@@ -18,6 +18,13 @@ footer:hover {
     background-color: darkorchid;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
 .container {
     flex-wrap: wrap;
     justify-content: Center;
@@ -29,8 +36,8 @@ footer:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 290px;
-    height: 450px
+    width: 400px;
+    height: 600px
 }
 
 body {
@@ -131,19 +138,46 @@ li:hover {
 }
 
 
-.form{
+form{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    line-height: 10px;
-
+    
 }
 
-.form:hover{
+input, button{
+    height: 50px;
+    width: 20%;
+    justify-content: space-evenly;
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+form:hover{
     background-color: blueviolet;
 }
 
+@media(max-width:700px){
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+}
+
+.linkedin{
+display: flex;
+flex-direction: row;
+padding: 5px;
+height: 2px;
+}
+
+   
 
 
 
